@@ -1,0 +1,674 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-size: 17px;
+}
+
+body {
+    background-color: whitesmoke;
+    display: block;
+    margin-bottom: 500px;
+}
+
+/* Style menjadi-instruktur */
+.menjadi-instruktur {
+    margin: 0 auto;
+    width: 80%;
+    /* display: block; */
+}
+
+.left img{
+    margin-top: 40px;
+    border: 2px solid red;
+    border-radius: 15px;
+    height: 350px;
+    width: 320px;
+}
+
+.right img{
+    margin-top: -155px;
+    border: 2px solid red;
+    border-radius: 15px;
+    height: 250px;
+    width: 220px;
+}
+
+/* STYLE mylearing */
+
+.mylearning {
+    margin: 0 auto;
+    margin-top: 170px;
+    display: block;
+    width: 80%;
+}
+
+.mylearning .course {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mylearning .new-course {
+    /* Horizontal centering */
+    margin: 0 auto; /* Automatically apply equal margins to left and right */
+    margin-top: 70px;
+    margin-bottom: 45px;
+    width: 50%; /* Optional: Set desired width */
+
+    /* Vertical centering */
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Center elements vertically within the div */
+    justify-content: center; /* Center elements horizontally within the div */
+}
+
+/* Style course class */
+
+.course-class {
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.course-class a img {
+    height: 230px;
+    width: 320px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.course-class a {
+    margin: 5px;
+    margin-top: 25px;
+    width: 25%;
+}
+
+.course-class .text p {
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+
+.connector {
+    top: 0;
+    left: 50%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.connector hr {
+    margin: 0 auto;
+    width: 80%;
+    height: 2px;
+    color: red;
+    background-color: red;
+}
+
+.card-container {
+    margin: 0 auto;
+    margin-bottom: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.card-container .card {
+    display: block;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    background-color: #ffff;
+
+    background-image: linear-gradient(
+        to left,
+        rgb(166, 114, 186),
+        rgb(56, 32, 164)
+    ); /* Replace colors as needed */
+    background-size: 100% 5px; /* Resize the gradient to match the border width */
+    background-repeat: no-repeat; /* Prevent gradient repetition */
+    background-position: bottom; /* Position the gradient at the bottom */
+}
+
+.card-container .card-1 {
+    /* display: block; */
+
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    background-color: #ffff;
+
+    border-bottom: 5px solid transparent; /* Set a transparent bottom border */
+
+    background-size: 100% 5px; /* Resize the gradient to match the border width */
+    background-repeat: no-repeat; /* Prevent gradient repetition */
+    background-position: bottom; /* Position the gradient at the bottom */
+}
+
+.card-1 .profile {
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px rgba(173, 148, 148, 0.112); /* Create the dark border shadow */
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.card .profile {
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px rgba(99, 96, 96, 0.112); /* Create the dark border shadow */
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.profile .profile2 {
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgb(221, 163, 221);
+    height: 40px;
+    width: 40px;
+}
+
+.profile2 {
+    margin-top: 5px;
+}
+
+.profile2 img {
+    margin-top: 5px;
+    margin-left: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.profile-text {
+    margin-top: 17px;
+    text-align: center;
+}
+
+.profile-text h1 {
+    font-size: 30px;
+}
+
+.profile-text p {
+    margin-top: 17px;
+    color: rgb(121, 115, 115);
+}
+
+/* Language academic */
+.language-academic {
+    /* margin: 0 auto; */
+    margin-top: 100px;
+    padding: 5px;
+    background-image: linear-gradient(
+        to top,
+        rgba(149, 100, 201, 0.105),
+        whitesmoke
+    ); /* Create the linear gradient */
+}
+
+.language-academic .header {
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(124, 124, 207);
+    width: 140px;
+    max-width: 200px;
+}
+
+.language-academic .text {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.language-academic .text p {
+    font-size: 15px;
+}
+
+.language-academic .text h1 {
+    font-size: 37px;
+    font-weight: 650;
+    padding: 13px;
+}
+
+.language-academic .header p {
+    font-size: 12px;
+    color: white;
+}
+
+/* Style see-all-courses */
+.see-all-courses {
+    background-image: linear-gradient(
+        to left,
+        rgb(166, 114, 186),
+        rgb(165, 16, 165)
+    ); /* Replace colors as needed */
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 7px;
+    width: 25%;
+    max-width: max-content;
+    text-align: center;
+}
+
+.see-all-courses a h1 {
+    color: white;
+    font-size: 17px;
+}
+
+/* Style Price from course */
+.price {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+/* Style review from course */
+.review {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review p {
+    color: rgba(0, 0, 0, 0.785);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.amount-review {
+    display: flex;
+    align-items: center;
+}
+
+.review .amount-review img {
+    width: 21px;
+    height: 21px;
+}
+
+.amount-star {
+    display: flex;
+    align-items: center;
+}
+
+.review .amount-star img {
+    margin-left: 6px;
+    width: 100%;
+    height: 23px;
+}
+
+/* Style Date-Duration */
+
+.date-duration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-duration .duration img {
+    width: 21px;
+    height: 21px;
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+}
+
+.duration p {
+    color: rgba(0, 0, 0, 0.503);
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.date-duration .date img {
+    width: 28px;
+    height: 28px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+}
+
+.date p {
+    color: rgba(0, 0, 0, 0.503);
+    font-size: 14px;
+}
+
+a .course {
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.title {
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Center the text within the header */
+}
+
+.title h4 {
+    color: rgb(245, 149, 149);
+    background-color: rgba(239, 209, 209, 0.833);
+    margin-left: 50px;
+    width: 50%;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 7px;
+}
+
+.title h2 {
+    font-size: 30px;
+
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.title p {
+    font-size: 15px;
+}
+
+.image-box img:hover {
+    transform: scale(1.1);
+}
+
+.course a:hover {
+    transform: scale(1.1);
+}
+
+.course-class a:hover {
+    transform: scale(1.1);
+}
+
+.see-all-courses:hover {
+    transform: scale(1.1);
+}
+
+.language-academic .header:hover {
+    transform: scale(1.1);
+}
+
+.card-container .card:hover {
+    transform: scale(1.1);
+}
+
+.card-container .card-1:hover {
+    transform: scale(1.1);
+}
+
+.mylearning .text-body {
+    margin-top: 7px;
+    text-align: center;
+}
+
+.mylearning a {
+    color: black;
+}
+
+.mylearning h1 {
+    font-size: larger;
+}
+
+.course .text-body p {
+    color: rgb(121, 115, 115);
+}
+
+.mylearning .course img {
+    height: 150px;
+    width: 260px;
+
+    max-width: 100%;
+    object-fit: cover;
+
+    border-radius: 15px;
+}
+
+.image-box {
+    display: flex;
+    align-items: center; /* Vertically align images */
+    margin-top: 10px;
+
+    /* margin-top: -10px; */
+}
+
+.big-image {
+    /* width: 38%;
+        height: 45%; */
+
+    border-radius: 4%;
+    height: 65%; /* Fill the available height */
+    width: auto; /* Automatically adjust width to maintain aspect ratio */
+    max-width: 230px; /* Optionally set a maximum width to prevent overly wide images */
+    object-fit: cover; /* Fill the container, cropping any excess */
+}
+
+.image-box .small-images img {
+    display: block;
+    border-radius: 4%;
+}
+
+.small-images .sm1 {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    height: 250px; /* Fill the available width */
+    width: auto; /* Automatically adjust height to maintain aspect ratio */
+    max-width: 200px; /* Optionally set a maximum height to prevent overly tall images */
+    object-fit: cover; /* Fill the container, cropping any excess */
+}
+
+.small-images .sm2 {
+    width: 250px; /* Fill the available width */
+    height: 200px; /* Automatically adjust height to maintain aspect ratio */
+    max-height: 250px; /* Optionally set a maximum height to prevent overly tall images */
+    object-fit: cover; /* Fill the container, cropping any excess */
+
+    margin-left: 20px;
+}
+
+.home {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+
+    display: flex;
+}
+
+form {
+    display: flex; /* Position elements horizontally */
+    align-items: center; /* Align vertically */
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.input a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+input[type="text"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 80%;
+}
+
+button {
+    background-color: #4caf50; /* Green background */
+    color: white;
+    padding: 8px 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home .content {
+    margin-top: 27px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    /* border: 2px solid red; */
+    display: block;
+    width: 45%;
+}
+
+.home .content h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 1000;
+
+    color: rgba(0, 0, 0, 0.758);
+}
+
+.home .content p {
+    color: rgb(121, 115, 115);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Or desired width */
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.navbar {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); /* Adjust shadow as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Optional vertical alignment */
+    padding: 12px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.navbar .left-container p,
+span {
+    display: block;
+}
+
+.navbar p {
+    color: green;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.navbar p span {
+    color: rgba(39, 168, 39, 0.705);
+}
+
+.header .text {
+    padding: 12px;
+    line-height: 1.5;
+    /* width: 350px; */
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+}
+
+.header .content-right {
+    display: flex;
+    padding: 12px;
+    line-height: 1.5;
+
+    /* position: absolute;
+    right: 0; */
+}
+
+.content-right p {
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 2px;
+    color: rgb(121, 115, 115);
+    font-weight: 600;
+}
+
+.text p {
+    margin-right: 15px;
+    color: rgb(121, 115, 115);
+    font-weight: 500;
+}
+
+.flag {
+    width: 28px;
+    height: 20px;
+
+    margin-right: 10px;
+}
+
+.left-container {
+    float: left;
+}
+
+.middle-container {
+    margin: 0 auto;
+}
+
+.middle-container a {
+    color: rgba(0, 0, 0, 0.677);
+    font-size: small;
+    margin: 10px;
+}
+
+.right-container {
+    float: right;
+    display: flex;
+}
+
+.right-container .sign-up {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #2554c7;
+}
+
+.right-container .carnot {
+    margin-top: 7px;
+}
+
+.right-container .carnot .bel {
+    margin-right: 10px;
+
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+
+    /* Other styling options: */
+
+    /* border: 1px solid #ccc;
+  border-radius: 50%;  */
+}
+
+.right-container .carnot .cart {
+    widows: 22px;
+    height: 22px;
+}
+
+.right-container .sign-up a {
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
