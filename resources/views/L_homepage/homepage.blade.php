@@ -359,137 +359,193 @@
             </div>
 </section>
 
-<div class="language-academic">
-                  <a href="">
-                    <div class="header">
-                        <p>WHY CHOOSE US</p>
-                    </div>
-                  </a>
-                <div class="text">
-                    <h1>Why Choose Histudy</h1>
-                    <p>Language Academic?</p>   
-                </div>
 
-             <div class="connector">
-                    <hr>
-                <div class="card-container">             
-                        <div class="card-1">
-                              <div class="profile">
-                               <br>
-                               <div class="profile2">
-                                   <img src="{{ asset('images/card/graduate.png') }}" class="">
-                               </div>                 
-                              </div>
-                           <div class="profile-text">
-                               <h1>10</h1>
-                               <p>Instruktur Tertampil</p>
-                           </div>
-                        </div>
-               
-                        <div class="card">
-                               <div class="profile">
-                                <br>
-                                <div class="profile2">
-                                    <img src="{{ asset('images/card/mengikuti.png') }}" class="">
-                                </div>                 
-                               </div>
-                            <div class="profile-text">
-                                <h1>10</h1>
-                                <p>Instruktur Tertampil</p>
-                            </div>
-                        </div>
-                       <div class="card">
-                               <div class="profile">
-                                <br>
-                                <div class="profile2">
-                                    <img src="{{ asset('images/card/kelas-langsung.png') }}" class="">
-                                </div>                 
-                               </div>
-                            <div class="profile-text">
-                                <h1>10</h1>
-                                <p>Instruktur Tertampil</p>
-                            </div>
-                       </div>
-                        <div class="card">
-                               <div class="profile">
-                                <br>
-                                <div class="profile2">
-                                    <img src="{{ asset('images/card/kursus-video.png') }}" class="">
-                                </div>                 
-                               </div>
-                            <div class="profile-text">
-                                <h1>10</h1>
-                                <p>Instruktur Tertampil</p>
-                            </div>
-                        </div>
-                         
-                </div>
-             </div>
-
-                    {{-- <div class="card-container">             
-                        <div class="card-1">
-                              <div class="profile">
-                               <br>
-                               <div class="profile2">
-                                   <img src="{{ asset('images/card/graduate.png') }}" class="">
-                               </div>                 
-                              </div>
-                           <div class="profile-text">
-                               <h1>10</h1>
-                               <p>Instruktur Tertampil</p>
-                           </div>
-                        </div>
-               
-                        <div class="card">
-                               <div class="profile">
-                                <br>
-                                <div class="profile2">
-                                    <img src="{{ asset('images/card/mengikuti.png') }}" class="">
-                                </div>                 
-                               </div>
-                            <div class="profile-text">
-                                <h1>10</h1>
-                                <p>Instruktur Tertampil</p>
-                            </div>
-                        </div>
-                       <div class="card">
-                               <div class="profile">
-                                <br>
-                                <div class="profile2">
-                                    <img src="{{ asset('images/card/kelas-langsung.png') }}" class="">
-                                </div>                 
-                               </div>
-                            <div class="profile-text">
-                                <h1>10</h1>
-                                <p>Instruktur Tertampil</p>
-                            </div>
-                       </div>
-                        <div class="card">
-                               <div class="profile">
-                                <br>
-                                <div class="profile2">
-                                    <img src="{{ asset('images/card/kursus-video.png') }}" class="">
-                                </div>                 
-                               </div>
-                            <div class="profile-text">
-                                <h1>10</h1>
-                                <p>Instruktur Tertampil</p>
-                            </div>
-                        </div>
-                         
-               </div> --}}          
-</div>
 
 <section class="menjadi-instruktur" id="menjadiinstruktur">
-    <div class="image-box">
+    <div class="language-academic">
+        <a href="">
+          <div class="header">
+              <p>WHY CHOOSE US</p>
+          </div>
+        </a>
+      <div class="text">
+          <h1>Why Choose Histudy</h1>
+          <p>Language Academic?</p>   
+      </div>
+
+   <div class="connector">
+          <hr>
+      <div class="card-container">             
+              <div class="card-1">
+                    <div class="profile">
+                     <br>
+                     <div class="profile2">
+                         <img src="{{ asset('images/card/graduate.png') }}" class="">
+                     </div>                 
+                    </div>
+                 <div class="profile-text">
+                     <h1>10</h1>
+                     <p>Instruktur Tertampil</p>
+                 </div>
+              </div>
+     
+              <div class="card">
+                     <div class="profile">
+                      <br>
+                      <div class="profile2">
+                          <img src="{{ asset('images/card/mengikuti.png') }}" class="">
+                      </div>                 
+                     </div>
+                  <div class="profile-text">
+                      <h1>10</h1>
+                      <p>Instruktur Tertampil</p>
+                  </div>
+              </div>
+             <div class="card">
+                     <div class="profile">
+                      <br>
+                      <div class="profile2">
+                          <img src="{{ asset('images/card/kelas-langsung.png') }}" class="">
+                      </div>                 
+                     </div>
+                  <div class="profile-text">
+                      <h1>10</h1>
+                      <p>Instruktur Tertampil</p>
+                  </div>
+             </div>
+              <div class="card">
+                     <div class="profile">
+                      <br>
+                      <div class="profile2">
+                          <img src="{{ asset('images/card/kursus-video.png') }}" class="">
+                      </div>                 
+                     </div>
+                  <div class="profile-text">
+                      <h1>10</h1>
+                      <p>Instruktur Tertampil</p>
+                  </div>
+              </div>
+               
+      </div>
+   </div>
+
+          {{-- <div class="card-container">             
+              <div class="card-1">
+                    <div class="profile">
+                     <br>
+                     <div class="profile2">
+                         <img src="{{ asset('images/card/graduate.png') }}" class="">
+                     </div>                 
+                    </div>
+                 <div class="profile-text">
+                     <h1>10</h1>
+                     <p>Instruktur Tertampil</p>
+                 </div>
+              </div>
+     
+              <div class="card">
+                     <div class="profile">
+                      <br>
+                      <div class="profile2">
+                          <img src="{{ asset('images/card/mengikuti.png') }}" class="">
+                      </div>                 
+                     </div>
+                  <div class="profile-text">
+                      <h1>10</h1>
+                      <p>Instruktur Tertampil</p>
+                  </div>
+              </div>
+             <div class="card">
+                     <div class="profile">
+                      <br>
+                      <div class="profile2">
+                          <img src="{{ asset('images/card/kelas-langsung.png') }}" class="">
+                      </div>                 
+                     </div>
+                  <div class="profile-text">
+                      <h1>10</h1>
+                      <p>Instruktur Tertampil</p>
+                  </div>
+             </div>
+              <div class="card">
+                     <div class="profile">
+                      <br>
+                      <div class="profile2">
+                          <img src="{{ asset('images/card/kursus-video.png') }}" class="">
+                      </div>                 
+                     </div>
+                  <div class="profile-text">
+                      <h1>10</h1>
+                      <p>Instruktur Tertampil</p>
+                  </div>
+              </div>
+               
+     </div> --}}          
+</div>
+</section>
+
+<section class="about-us" id="aboutus">
+    <div class="image-box-aboutus">
         <div class="left">
             <img src="{{ asset('images/image-box/jadali.jpg') }}" alt="">
+            
         </div>
         <div class="right">
-            <img src="{{ asset('images/image-box/jerome.png') }}" alt="">
+            <div class="right-top">
+                <img src="{{ asset('images/image-box/jerome.png') }}" alt="">
+            </div>
+            <div class="right-below">
+                <img src="{{ asset('images/image-box/jesse.jpg') }}" alt="">
+            </div>
+        </div>
+       
+    </div>
+    <div class="body-aboutus">
+        <div class="text">
+            <header>
+                KNOW ABOUT US
+            </header>
+            <h1>Know About Weslic Univ Learning Platform</h1>
+            <p>Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Seperated they
+                live in Bookmarksgrove right at the coast of the Semantics, a large
+                language ocean.
+            </p>
+        </div>
+        <div class="flexible-classes">  
+            <div class="content1">
+                <div class="icon">
+                    <img src="{{ asset('images/about-us/love.png') }}" alt="">
+                </div>
+                <div class="body-text">
+                    <h4>Flexible Classes</h4>
+                    <p>It is a long established fact that a reader will be distracted by this on readable content of when looking at its layout</p>
+                </div>
+            </div>
+            <div class="content2">
+                <div class="icon">
+                    <img src="{{ asset('images/about-us/love.png') }}" alt="">
+                </div>
+                <div class="body-text">
+                    <h4>Learn From Anywhere</h4>
+                    <p>It is a long established fact that a reader will be distracted by this on readable content of when looking at its layout</p>
+                </div>
+            </div>
+            <div class="more-about-us">
+                <a href="#">
+                    <span class="side-by-side"><h1>More About Us</h1></span>
+                    <span class="side-by-side">
+                        <li>
+                            <img src="{{ asset('images/about-us/arrow.png') }}" alt="">
+                        </li>
+                    </span>
+                    
+                </a>
+            </div>
         </div>
     </div>
 </section>
+
 
 
 
